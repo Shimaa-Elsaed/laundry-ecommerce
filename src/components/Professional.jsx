@@ -79,7 +79,7 @@ const Professional = () => {
                   flex items-center justify-center
                   rounded-full
                   bg-blue-100
-                  text-blue-600
+                  text-purple-600
                   text-3xl
                   group-hover:scale-110
                   transition
