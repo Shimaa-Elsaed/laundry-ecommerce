@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
               size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6"
+              className="bg-purple-700 hover:bg-purple-700 text-white px-8 py-6"
             >
               {t("startNow")}
             </Button>
@@ -32,7 +32,7 @@ const Hero = () => {
               asChild
               variant="outline"
               size="lg"
-              className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6"
+              className="border-purple-700 text-purple-700 hover:bg-blue-50 px-8 py-6"
             >
               <Link to="/services">{t("showServices")}</Link>
             </Button>
